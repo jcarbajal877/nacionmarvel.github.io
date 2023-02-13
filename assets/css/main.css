@@ -226,13 +226,14 @@ input, select, textarea {
 		transform: translate3d(0,0,0);
 	/* Set your background with this */
 
-		background: #FFF url("images/bp.jpg") bottom left;
-		background-repeat: repeat-x;
-		height: 50%;
-		left: 0;
-		opacity: 1;
-		position: fixed;
-		top: 0;
+	background: #000;
+ 	background-image: url('images/bp.jpg');
+	background-size: cover;
+	background-position: center;
+	height: 100%;
+	width: 100%;
+	background-repeat: repeat-x;
+
 	}
 
 	@-moz-keyframes bg {
